@@ -1,0 +1,50 @@
+html {
+  background-color: rgb(194, 214, 220) !important;
+
+}
+
+.container-1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 14px;
+    width: 225px;
+    height: 360px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+    position: absolute;
+    top:28%;
+    left: 44%;
+
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+
+h1 {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: bold;
+}
+
+p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+}
+
+@media (max-width: 375px) {
+
+  .container {
+    width: 300px;
+    text-align: center;
+  }
+  .container-1 {
+    position: absolute;
+    top:23%;
+    left: 20%;
+  }
+}
